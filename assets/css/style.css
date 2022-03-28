@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(0, 0, 82);
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.fizz {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(100, 237, 146);
+}
+
+.buzz {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 196, 0);
+}
+
+.fizz_buzz {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+.not_multiple {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
